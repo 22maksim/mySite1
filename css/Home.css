@@ -1,4 +1,99 @@
 body {
   margin: 0;
   padding: 0;
+  height: 5996px;
+  min-width: 100vw;
+}
+
+/* Nav Bar */
+
+.Navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(37, 26, 26);
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 {
+  color: antiquewhite;
+  font-size: 175%;
+  padding: 0;
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+
+
+.menu1 {
+  display: inline-flex;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 6px;
+}
+
+.menu1 li a {
+  color: antiquewhite;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.menu1 li a:hover {
+  color: rgb(168, 150, 128);
+}
+
+.buttonTop {
+  color: rgb(253, 231, 201);
+  background-color: rgb(153, 108, 52);
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+/*Home Hero*/
+
+.HomeHero {
+  min-height: 720px;
+  background-image: url(../img/fit1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+  margin-top: 0;
+  padding: 0;
+  
+}
+
+.heroOne {
+  width: 100vw;
+  height: 720px;
+  background-color: rgba(97, 17, 64, 0.4);
+}
+
+.postedHero {
+  width: 100vw;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+.postedHero button {
+ background-color: rgb(207, 207, 77);
+ border: none;
+ color: rgb(34, 25, 25);
+ font-size: 100%;
+}
+
+.postedHero button:hover {
+  border: 2px solid rgb(129, 3, 81);
+  text-decoration: underline;
+}
+.topMymain {
+  font-size: 180%;
+}
+
+.postedHero h2 {
+  font-size: 200%;
+}
+
+.strongYellow {
+  color: rgb(214, 214, 59);
 }
