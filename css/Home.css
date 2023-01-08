@@ -121,3 +121,18 @@ body {
   background-image: url(../img/fit4.jpg);
   background-size: cover;
 }
+
+.line1 {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  height: 15px;
+  margin: 0 20px;
+}
+
+.line11 {
+  background-color: aquamarine;
+}
+
+.line12 {
+  background-color: chartreuse;
+}
