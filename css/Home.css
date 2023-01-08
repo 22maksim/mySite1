@@ -58,21 +58,24 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: antiquewhite;
-  margin-top: 0;
-  padding: 0;
+
+ 
   
 }
 
 .heroOne {
-  width: 100vw;
+  max-width: 100vw;
   height: 720px;
   background-color: rgba(97, 17, 64, 0.4);
+  margin: 0;
 }
 
 .postedHero {
   width: 100vw;
   margin-left: 50px;
   padding-top: 100px;
+  padding-right: 50px;
+
 }
 
 .postedHero button {
