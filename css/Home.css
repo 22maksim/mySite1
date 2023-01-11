@@ -161,6 +161,103 @@ body {
   padding: 20px;
 }
 
-.AboutUs {
-  
+/*chooseAcatagory*/
+
+.chooseAcatagory {
+  max-width: 100%;
+  text-align: center;
+  min-height: 400px;
+}
+.choose {
+  display: grid;
+  grid-template-columns: 20fr 20fr 20fr 20fr;
+}
+
+.choose1 {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.589);
+}
+
+.choose2 {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.589);
+}
+
+.choose3 {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.589);
+}
+
+.choose4 {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.589);
+}
+
+.choose1:hover {
+  background-color: rgba(176, 127, 255, 0.39);
+}
+
+.choose2:hover {
+  background-color: rgba(176, 127, 255, 0.39);
+}
+
+.choose3:hover {
+  background-color: rgba(176, 127, 255, 0.39);
+}
+
+.choose4:hover {
+  background-color: rgba(176, 127, 255, 0.39);
+}
+
+.imgChoose1 {
+  border: 1px splid gray;
+  border-radius: 5px;
+  background-color: rgb(205, 255, 205);
+  width: 60px;
+  padding: 5px;
+}
+
+.imgChoose2 {
+  border: 1px splid gray;
+  border-radius: 5px;
+  background-color: rgb(205, 255, 205);
+  width: 60px;
+  padding: 5px;
+}
+
+.imgChoose3 {
+  border: 1px splid gray;
+  border-radius: 5px;
+  background-color: rgb(205, 255, 205);
+  width: 60px;
+  padding: 5px;
+}
+
+.imgChoose4 {
+  border: 1px splid gray;
+  border-radius: 5px;
+  background-color: rgb(205, 255, 205);
+  width: 60px;
+  padding: 5px;
+}
+ 
+/*specialPost*/
+
+.specialPost {
+  display: block;
+  width: 100%;
+
+}
+
+.contentImg {
+  position: relative;
+  width: 70%;
+  float: left;
+}
+
+.contenSpec {
+  position: absolute;
+  width: 50%;
+  padding: 80px;
+  float: right;
 }
