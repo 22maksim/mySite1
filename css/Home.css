@@ -243,21 +243,21 @@ body {
  
 /*specialPost*/
 
-.specialPost {
-  display: block;
-  width: 100%;
+.speci {
+}
 
+.specialPost {
+  background-color: aliceblue;
 }
 
 .contentImg {
-  position: relative;
-  width: 70%;
-  float: left;
+  left: 50px;
+  width: 60%;
+  height: auto;
 }
 
 .contenSpec {
-  position: absolute;
-  width: 50%;
-  padding: 80px;
-  float: right;
+  max-width: 500px;
+  padding: 10px;
+  background-color: aliceblue;
 }
