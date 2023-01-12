@@ -176,21 +176,33 @@ body {
 .choose1 {
   padding: 20px;
   border: 1px solid rgba(128, 128, 128, 0.589);
+  background-color: aliceblue;
+  transition-property: background-color;
+  transition-duration: 0.3s;
 }
 
 .choose2 {
   padding: 20px;
   border: 1px solid rgba(128, 128, 128, 0.589);
+  background-color: aliceblue;
+  transition-property: background-color;
+  transition-duration: 0.3s;
 }
 
 .choose3 {
   padding: 20px;
   border: 1px solid rgba(128, 128, 128, 0.589);
+  background-color: aliceblue;
+  transition-property: background-color;
+  transition-duration: 0.3s;
 }
 
 .choose4 {
   padding: 20px;
   border: 1px solid rgba(128, 128, 128, 0.589);
+  background-color: aliceblue;
+  transition-property: background-color;
+  transition-duration: 0.3s;
 }
 
 .choose1:hover {
