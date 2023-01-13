@@ -256,20 +256,40 @@ body {
 /*specialPost*/
 
 .speci {
+  width: 1300px;
+  height: 705;
+  margin: auto;
 }
 
 .specialPost {
-  background-color: aliceblue;
-}
+  position: relative;
+  background-image: url(../img/fit3.jpg);
+  background-repeat:no-repeat;
+  width: 1300px;
+  height: 705px;
 
-.contentImg {
-  left: 50px;
-  width: 60%;
-  height: auto;
 }
 
 .contenSpec {
-  max-width: 500px;
-  padding: 10px;
+  position: absolute;
+  width: 586px;
+  height: 454px;
   background-color: aliceblue;
+  right: 0px;
+  bottom: 0px;
+  padding: 60px;
+}
+
+.buttonPas {
+  font-size: 130%;
+  width: 280px;
+  padding: 15px;
+  background-color:rgb(216, 187, 21);
+  border: 0;
+  transition-duration: 1s;
+}
+
+.buttonPas:hover {
+  background-color: rgba(126, 17, 70, 0.788);
+  color:blanchedalmond;
 }
