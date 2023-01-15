@@ -294,6 +294,39 @@ body {
   color:blanchedalmond;
 }
 
+/*listofAutors*/
+
 .imAutors {
   text-align: center;
+}
+
+.listAutors2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.autor1 {
+  height: 324px;
+  background-color:rgb(49, 37, 156);
+  color:rgb(253, 231, 201);
+  margin-left: 50px;
+}
+
+.autor2 {
+  height: 324px;
+  background-color:rgb(146, 127, 255);
+  color:rgb(253, 231, 201);
+}
+
+.autor3 {
+  height: 324px;
+  background-color:rgb(129, 3, 81);
+  color:rgb(253, 231, 201);
+}
+
+.autor4 {
+  height: 324px;
+  background-color:rgb(34, 25, 25);
+  color:rgb(253, 231, 201);
+  margin-right: 50px;
 }
