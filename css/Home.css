@@ -101,7 +101,7 @@ body {
 .FeaturedPosts {
   display: grid;
   grid-template-columns: 60fr 40fr;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-left: 20px;
 }
 
@@ -167,6 +167,7 @@ body {
   max-width: 100%;
   text-align: center;
   min-height: 400px;
+  padding-top: 100px;
 }
 .choose {
   display: grid;
@@ -259,6 +260,7 @@ body {
   width: 1300px;
   height: 705;
   margin: auto;
+  padding: 100px;
 }
 
 .specialPost {
@@ -297,6 +299,7 @@ body {
 /*listofAutors*/
 
 .imAutors {
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -304,29 +307,24 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
+  text-align: center;
 }
-.autor1 {
+.autor1, .autor4 {
   height: 324px;
-  background-color:rgb(49, 37, 156);
-  color:rgb(253, 231, 201);
-  margin-left: 50px;
-}
-
-.autor2 {
-  height: 324px;
-  background-color:rgb(146, 127, 255);
-  color:rgb(253, 231, 201);
+  margin-left: 40px;
 }
 
-.autor3 {
+.autor2, .autor3 {
   height: 324px;
-  background-color:rgb(129, 3, 81);
-  color:rgb(253, 231, 201);
 }
 
-.autor4 {
-  height: 324px;
-  background-color:rgb(34, 25, 25);
-  color:rgb(253, 231, 201);
-  margin-right: 50px;
+.maks1, .ekaterina, .kris, .cat1 {
+  border-radius: 50% 50% 50% 50%;
+  width: 128px;
+  height: 128px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
 }
