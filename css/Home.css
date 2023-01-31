@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0px 120px;
   padding: 0;
   min-height: 5996px;
 }
@@ -164,89 +164,32 @@ body {
 /*chooseAcatagory*/
 
 .chooseAcatagory {
-  max-width: 100%;
+  max-width: 1440px;
   text-align: center;
   min-height: 400px;
   padding-top: 100px;
 }
 .choose {
   display: grid;
-  grid-template-columns: 20fr 20fr 20fr 20fr;
+  grid-template-columns: repeat(auto, 25%);
+  max-width: 1440px;
 }
 
-.choose1 {
+.chooseUse {
   padding: 20px;
   border: 1px solid rgba(128, 128, 128, 0.589);
   background-color: aliceblue;
   transition-property: background-color;
   transition-duration: 0.3s;
+  max-width: 296px;
 }
 
-.choose2 {
-  padding: 20px;
+.chooseUse:hover {
+  background-color: rgba(176, 127, 255, 0.39);
   border: 1px solid rgba(128, 128, 128, 0.589);
-  background-color: aliceblue;
-  transition-property: background-color;
-  transition-duration: 0.3s;
 }
 
-.choose3 {
-  padding: 20px;
-  border: 1px solid rgba(128, 128, 128, 0.589);
-  background-color: aliceblue;
-  transition-property: background-color;
-  transition-duration: 0.3s;
-}
-
-.choose4 {
-  padding: 20px;
-  border: 1px solid rgba(128, 128, 128, 0.589);
-  background-color: aliceblue;
-  transition-property: background-color;
-  transition-duration: 0.3s;
-}
-
-.choose1:hover {
-  background-color: rgba(176, 127, 255, 0.39);
-}
-
-.choose2:hover {
-  background-color: rgba(176, 127, 255, 0.39);
-}
-
-.choose3:hover {
-  background-color: rgba(176, 127, 255, 0.39);
-}
-
-.choose4:hover {
-  background-color: rgba(176, 127, 255, 0.39);
-}
-
-.imgChoose1 {
-  border: 1px splid gray;
-  border-radius: 5px;
-  background-color: rgb(205, 255, 205);
-  width: 60px;
-  padding: 5px;
-}
-
-.imgChoose2 {
-  border: 1px splid gray;
-  border-radius: 5px;
-  background-color: rgb(205, 255, 205);
-  width: 60px;
-  padding: 5px;
-}
-
-.imgChoose3 {
-  border: 1px splid gray;
-  border-radius: 5px;
-  background-color: rgb(205, 255, 205);
-  width: 60px;
-  padding: 5px;
-}
-
-.imgChoose4 {
+.imgChoose1, .imgChoose2, .imgChoose3, .imgChoose4 {
   border: 1px splid gray;
   border-radius: 5px;
   background-color: rgb(205, 255, 205);
@@ -264,22 +207,23 @@ body {
 }
 
 .specialPost {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  grid-template-rows: repeat(1fr, 1fr, 454px);
   background-image: url(../img/fit3.jpg);
   background-repeat:no-repeat;
-  width: 1300px;
+  max-width: 1300px;
   height: 705px;
 
 }
 
 .contenSpec {
-  position: absolute;
-  width: 586px;
-  height: 454px;
+  /*grid-column-start: 10;*/
+  grid-row: 3;
+  max-width: 586px;
+  min-height: 454px;
   background-color: aliceblue;
-  right: 0px;
-  bottom: 0px;
-  padding: 60px;
+  padding: 20px;
 }
 
 .buttonPas {
@@ -309,22 +253,23 @@ body {
   grid-gap: 30px;
   text-align: center;
 }
-.autor1, .autor4 {
+.autor1, .autor4, .autor2, .autor3 {
   height: 324px;
-  margin-left: 40px;
-}
-
-.autor2, .autor3 {
-  height: 324px;
+  background-color: antiquewhite;
+  padding-top: 45px;
 }
 
 .maks1, .ekaterina, .kris, .cat1 {
   border-radius: 50% 50% 50% 50%;
-  width: 128px;
-  height: 128px;
+  width: 138px;
+  height: 138px;
 }
 
 .icon {
   width: 16px;
   height: 16px;
+}
+
+h3 {
+  margin: 0;
 }
