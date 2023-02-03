@@ -8,7 +8,8 @@ body {
 
 .Navbar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 30vw);
+  grid-template-columns: repeat(auto-fit, minmax(230.11, 600px));
+  grid-template-rows: repeat(auto-fit, 5vh);
   background-color: rgb(26, 29, 37);
   height: 5vh;
   margin: 0;
@@ -20,9 +21,9 @@ body {
   font-size: 175%;
   padding: 0;
   padding-left: 50px;
+  padding-right: 30px;
   margin-bottom: 0;
 }
-
 
 .menu1 {
   display: inline-flex;
@@ -53,11 +54,17 @@ body {
   background-color:rgb(74, 59, 59);
 }
 
+@media (max-width: 320px) {
+  .menu1 {
+    grid-row: 2/3;
+  }
+}
+
 /*Home Hero*/
 
 .HomeHero {
   min-height: 75vh;
-  background-image: url(../img/fit1.png);
+  background-image: url(../img/frame.png);
   background-size: cover;
   background-position: 50% 50%;
   color: antiquewhite;
@@ -67,7 +74,7 @@ body {
 .heroOne {
   max-width: 100%;
   min-height: 80vh;
-  background-color: rgba(73, 63, 63, 0.778);
+  background-color: rgba(66, 63, 73, 0.868);
   margin:;
   padding: 90px 10px 0 10px;
 }
@@ -107,6 +114,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 650px));
   padding-top: 11vh;
+  padding-bottom: 11vh;
   justify-content: center;
 }
 
