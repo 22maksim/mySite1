@@ -74,12 +74,8 @@ body {
   max-width: 100%;
   min-height: 80vh;
   background-color: rgba(66, 63, 73, 0.868);
-  margin:;
-  padding: 90px 10px 0 10px;
-}
+  padding: 90px 10px 2px 10px;
 
-.postedHero {
-  padding: ;
 }
 
 .postedHero button {
@@ -202,7 +198,7 @@ body {
 }
 
 .imgChoose1, .imgChoose2, .imgChoose3, .imgChoose4 {
-  border: 1px splid gray;
+  border: 1px solid gray;
   border-radius: 5px;
   background-color: rgb(205, 255, 205);
   width: 60px;
@@ -233,7 +229,7 @@ body {
   grid-row: 3;
   max-width: 586px;
   min-height: 454px;
-  background-color: rgba(240, 248, 255, 0.794);
+  background-color: rgba(240, 248, 255, 0.594);
   justify-items: center;
   padding: 8px;
 }
@@ -336,8 +332,8 @@ h3 {
 @media (max-width:640px) {
   .Testimonials {
     grid-template-columns: 1fr min-content;
-    grid-template-rows: repeat(auto-fit, minmax(300px, 550px));
-    padding-top: 5vh;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 350px));
+    padding: 7px;
     background-color:rgb(249, 219, 182);
   }
 }
@@ -355,4 +351,9 @@ h3 {
 
 .author2, .author3 {
   display: none;
+}
+
+.strelk {
+  width: 20px;
+  height: 20px;
 }
